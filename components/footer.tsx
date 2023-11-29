@@ -6,13 +6,13 @@ export function Footer() {
       <div className="space-y-12 pt-16">
         <nav className="space-x-6 text-center text-sm font-medium">
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
+          <Link href="/about">Sobre</Link>
         </nav>
 
         <div className="text-center">
           <p className="text-sm text-gray-500">
-            &copy; <Link href="/">{process.env.NEXT_PUBLIC_SITE_NAME}</Link>.
-            All rights reserved.
+            &copy; <Link href="/">How-to UFMA</Link>. Todos os direitos
+            reservados.
           </p>
         </div>
       </div>

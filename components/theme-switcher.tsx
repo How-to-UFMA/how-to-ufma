@@ -19,9 +19,9 @@ export function ThemeSwitcher() {
   return (
     <button
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      className="flex h-6 w-6 items-center justify-center rounded-md border"
+      className="z-10 flex h-8 w-8 items-center justify-center rounded-lg border"
     >
-      <span className="sr-only">Toggle mode</span>
+      <span className="sr-only">Alterar modo de cores</span>
       {theme === "dark" ? (
         <SunIcon className="h-4 w-4" />
       ) : (
