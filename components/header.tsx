@@ -2,9 +2,9 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { MenuIcon } from "lucide-react"
 
 import { ThemeSwitcher } from "./theme-switcher"
+import Image from "next/image"
 
 export function Header() {
   const [isMobileOpen, setIsMobileOpen] = useState(false)
@@ -18,7 +18,12 @@ export function Header() {
           <div className="flex flex-1 items-center justify-between">
             <div className="flex shrink-0 items-center">
               <Link href="/" className="z-10 text-3xl font-black">
-                How-to UFMA
+                <Image
+                  alt="Logotipo How to UFMA"
+                  src={"/HEADERLOGO-HOWTOUFMA.svg"}
+                  height={420}
+                  width={180}
+                ></Image>
               </Link>
             </div>
             <div className="flex items-center gap-5">
