@@ -43,12 +43,15 @@ export function Hero() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button asChild>
-                <a href="#" target="_blank">
+                <a
+                  href="https://github.com/How-to-UFMA/how-to-ufma"
+                  target="_blank"
+                >
                   <Github className="mr-2 h-4 w-4" />
                   Acessar repositório
                 </a>
               </Button>
-              <a href="#">
+              <a href="https://github.com/How-to-UFMA/Contribuidores">
                 Contribuidores <span aria-hidden="true">→</span>
               </a>
             </div>

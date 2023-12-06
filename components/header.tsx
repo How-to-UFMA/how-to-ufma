@@ -1,16 +1,11 @@
 "use client"
 
-import { useState } from "react"
 import Link from "next/link"
 
 import { ThemeSwitcher } from "./theme-switcher"
 import Image from "next/image"
 
 export function Header() {
-  const [isMobileOpen, setIsMobileOpen] = useState(false)
-
-  const toggleMobileMenu = () => setIsMobileOpen(!isMobileOpen)
-
   return (
     <nav className="mb-12 ">
       <div className="mx-auto">

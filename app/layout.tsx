@@ -6,9 +6,9 @@ import "./globals.css"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 
-const title = "Next Dev Blog"
+const title = "How-to UFMA"
 const description =
-  "A Next.js markdown blog for developers using the new App Router."
+  "Comunidade open-source para aprendizado e conteúdos em português"
 export const metadata = {
   metadataBase: process.env.NEXT_PUBLIC_SITE_URL,
   title: {
@@ -27,29 +27,25 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "stevenspads",
+      name: "Gildemar",
+      url: "https://github.com/gildemardev",
+    },
+    {
+      name: "Luiza Karine",
       url: "https://github.com/stevenspads",
     },
   ],
-  creator: "stevenspads",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "pt_BR",
     url: process.env.NEXT_PUBLIC_SITE_URL,
     title,
     description,
     siteName: title,
-  },
-  twitter: {
-    card: "summary_large_image",
-    title,
-    description,
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/og-image.jpg`],
-    creator: "@stevenspads",
   },
   icons: {
     icon: "/favicon.ico",
