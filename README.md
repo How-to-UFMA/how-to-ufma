@@ -2,7 +2,6 @@
 
 Estamos entusiasmados em apresentar um projeto inovador que promete revolucionar a forma como os programadores e estudantes brasileiros aprendem e compartilham conhecimento. Trata-se de um blog de programação especialmente projetado para atender às suas necessidades.
 O objetivo principal deste blog é fornecer uma plataforma rica em conteúdo, com tutoriais de programação de alta qualidade que são, na maioria das vezes, encontrados apenas em línguas estrangeiras, principalmente em inglês. A motivação por trás deste projeto é democratizar o acesso à informação de qualidade e facilitar a compreensão e o estudo de programação no Brasil.
-Este projeto tem uma visão mais ampla. Ele busca incentivar os programadores brasileiros a compartilhar seus conhecimentos e experiências, permitindo que os usuários contribuam com novos conteúdos. Isso não apenas enriquecerá o blog, mas também promoverá uma cultura de aprendizado e compartilhamento entre a comunidade de programadores brasileiros.
 
 **Agora, precisamos de você!** 🙌
 
